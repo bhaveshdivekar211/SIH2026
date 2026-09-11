@@ -1,13 +1,3 @@
-"""
-agent.py
-Run this file to chat with the already-built vector database.
-
-Make sure you've run `python ingest.py` at least once before this
-(it needs faiss_index/ to exist).
-
-Usage:  python agent.py
-"""
-
 import os
 import sys
 from dotenv import load_dotenv
